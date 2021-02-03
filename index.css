@@ -4,8 +4,17 @@
 }
 
 #header {
-  background-color: lightpink;
-  height: 30vh;
+  background-color: rgb(255, 255, 255);
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#button{
+  background-color: rgb(255, 255, 255);
+  height: 10vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -14,14 +23,22 @@
 
 #container {
   background-color: black;
-  height: 70vh;
+  height: 35vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 
+#container1 {
+  background-color: black;
+  height: 35vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: top;
+}
+
 .tile {
-  height: 200px;
-  width: 200px;
+  height: 30vh;
+  width: 30vh;
   background-color: aliceblue;
 }
